@@ -1,0 +1,195 @@
+/* Importar fonte Poppins do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  width: 70%;
+  color: #000000;
+  text-align: center;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: #2e3a4d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.navbar .header {
+  width: 70%;
+  color: #fff;
+}
+
+.home__form {
+  flex: 1;
+  width: 100%;
+  height: 80vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home__input,
+.addProduct__form input,
+.bidProduct__form input {
+  width: 70%;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  outline: none;
+  border: 1px solid #2e3a4d;
+}
+
+.home__cta,
+.addProduct__cta,
+.bidProduct__cta {
+  width: 70%;
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2e3a4d;
+  border-radius: 8px;
+}
+
+.editIcon {
+  height: 20px;
+  cursor: pointer;
+  fill: #2e3a4d;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.products__container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.products__cta {
+  flex: 0 1 calc(25% - 20px);
+  background-color: #2e3a4d;
+  color: #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.products__cta-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 15px;
+}
+
+.products__cta-button {
+  background-color: #2e3a4d;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+.addProduct__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addProduct__container h2,
+.bidProduct__container h2 {
+  margin-bottom: 20px;
+}
+
+  .bidProduct__container{
+    height: 100vh;
+  }
+
+.addProduct__form,
+.bidProduct__form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.addProduct__cta,
+.bidProduct__cta {
+  width: 50%;
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #2e3a4d;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.bidProduct__name {
+  margin-bottom: 20px;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  height: 12vh;
+  background-color: #2e3a4d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px;
+  margin-top: auto;
+}
+
+.products__cta-button {
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.products__cta:hover,
+.products__cta-button:hover,
+.bidProduct__cta:hover,
+.addProduct__cta:hover {
+  background-color: #2980b9;
+}

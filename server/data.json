@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "Mioajao Nissin Lamen",
+      "price": "8",
+      "owner": "gabigol",
+      "last_bidder": "meçi"
+    },
+    {
+      "name": "Agua de Banho",
+      "price": "113",
+      "owner": "Belle Delphine",
+      "last_bidder": "Lula"
+    },
+    {
+      "name": "Roupa de Militar",
+      "price": "200",
+      "owner": "Hitler",
+      "last_bidder": "Bolsonaro"
+    },
+    {
+      "name": "Coca pela metade",
+      "price": "20",
+      "owner": "ramses",
+      "last_bidder": "Acauan"
+    },
+    {
+      "name": "pc brabor",
+      "price": "2019",
+      "owner": "raniere",
+      "last_bidder": "ramscarv"
+    }
+  ]
+}
